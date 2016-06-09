@@ -2,13 +2,9 @@
 
 ---
 
-*This repository is for you to submit projects*. For the DAT 37 Class repository: https://github.com/ga-students/DAT-NYC-37
+*This repository is for you to submit projects for the DAT 37 Class repository: https://github.com/ga-students/DAT-NYC-37*
 
-**Fork this repo and add your assignments to the following folder:**
-
-https://github.com/ga-students/DAT-NYC-37-Students/tree/master/projects
-
-#### This is a simple markdown file!
+#### This Readme is a simple markdown file!
 
 **Open Readme.md in a text editor to see how it's formatted**
 
@@ -31,6 +27,7 @@ http://daringfireball.net/projects/markdown/
 1. Drag the folder named `firstname_lastname` to the upload section and
    press the "Propose changes" button. 
 
+---
 
 *Alternatively, if you're familiar with forking on github you can fork this repository and add files directly
 via a pull request, if desired.*
@@ -46,6 +43,3 @@ via a pull request, if desired.*
 
 https://help.github.com/articles/using-pull-requests/.
  
-*You can also use the "Upload files" button to upload your homework,
-though I strongly recommend becoming accustomed to using git with github*
-
