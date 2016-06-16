@@ -27,6 +27,10 @@ http://daringfireball.net/projects/markdown/
 1. Drag the folder named `firstname_lastname` to the upload section and
    press the "Propose changes" button. 
 
+
+#### [For an example of how to submit your project click here](https://github.com/ga-students/DAT-NYC-37-Students/pull/15)
+
+
 ---
 
 *Alternatively, if you're familiar with forking on github you can fork this repository and add files directly
