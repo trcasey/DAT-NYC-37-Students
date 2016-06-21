@@ -1,0 +1,37 @@
+# Compiled Python files
+*.pyc
+*.log
+*.sqlite
+.rbx
+node_modules
+
+# Folder view configuration files
+.DS_Store
+.DS_Store?
+Desktop.ini
+
+# Thumbnail cache files
+._*
+ehthumbs.db
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+.idea
+*.iml
+.idea/*
+/log/*.log
+/tmp
+
+.zeus.sock
+# Ignore the default SQLite database.
+tmp
+config/application.yml
+
+/target
+project/project
+project/target
+
+.DS_Store
