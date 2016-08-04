@@ -1,0 +1,82 @@
+### Project Problem and Hypothesis
+
+* What's the project about? What problem are you solving? 
+The project is about predicting NYC high school graduation rates for individuals using their ethnicity, gender and school district as influencing variables. I am trying to demonstrate students who live in higher ranked school districts receive better education and a harder curriculum, which helps them prepare for state-wide tests better.  
+My hypothesis is that if you are in a higher ranked school district, your chances of graduating increase. If you are an African American or Hispanic male, your chances of graduating decrease compared to other demographics (White, Asian, females)
+
+* Where does this seem to reside as a machine learning problem? Are you predicting some continuous number, or predicting a binary value?
+I think this could be a machine learning problem. I am predicting NYC graduation rates, so it would be a percentage (a continous number). 
+Rows: 
+
+* What kind of impact do you think it could have? The results can show that a student's ethnicity and gender can impact their chances of graduating. Hopefully the Board of Education will create programs that will level the playing field and provide additional resources to the school districts that need it the most. 
+
+
+* What do you think will have the most impact in predicting the value you are interested in solving for? I think ethnicity will have the biggest impact in predicting graduation rates.
+
+
+### Datasets
+* Description of data set available, at the field level (see table)
+* If from an API, include a sample return (this is usually included in API documentation!) (if doing this in markdown, use the javacription code tag)
+Last updated	Mar 31, 2016
+Created	Jul 17, 2015
+Name	HS-attain-dropout-trans_verified.xlsx
+Format	Web Page
+License	License Not Specified
+created	July 17, 2015
+id	02902d05-8b67-4342-8265-b1c14eaeb228
+mimetype	application/vnd.ms-excel
+position	134
+resource group id	9700dd67-ee59-44ab-b602-6a189be6444c
+revision id	1b26d7d8-3147-4aa6-b287-605949c46844
+revision timestamp	March 31, 2016
+state	active
+
+Category: Education
+Permissions: Public
+Tags: graduation outcome, school, ethnicity, lifelong learning
+Row Count: 26808
+
+
+### Domain knowledge
+* What experience do you already have around this area? As my full-time job, I am a diversity & inclusion professional, so I have studied that certain demographic groups do face disadvantages in education and unconscious bias due to their physical appearance and systemic bias.
+
+* Does it relate or help inform the project in any way? This analysis would support that minorities do face unfair disadvantages due to their physical appearance and hopefully will help support the case for creating special initiatives and programs to level the playing field. 
+
+* What other research efforts exist?
+    * Use a quick Google search to see what approaches others have made, or talk with your colleagues if it is work related about previous attempts at similar problems.
+    * This could even just be something like "the marketing team put together a forecast in excel that doesn't do well."
+    * Include a benchmark, how other models have performed, even if you are unsure what the metric means.
+There has been other research efforts on this topic. One analysis I found used hierarchical linear modeling, which worked well for them. However, they were unable to assess growth in student academic outcomes within and across school districts. The analysis is too coarse-grained to pick up small but important differences across networks, because their effort is essentially a bird’s-eye view of network contributions to student academic outcomes across the city school system.
+Analysis: http://annenberginstitute.org/sites/default/files/product/697/files/NYCNetworksRpt2015.pdf
+
+### Project Concerns
+* What questions do you have about your project? What are you not sure you quite yet understand? (The more honest you are about this, the easier your instructors can help). 
+(look at data)
+- How can I include ranked school district data into my analysis?
+- What if my sample size for African American and Hispanic males are too small?
+
+
+* What are the assumptions and caveats to the problem? 
+    * What data do you not have access to but wish you had? I need to find the ranking of NYC school districts to see if there is a relationship between school district rankings and graduation rates. 
+    
+    * What is already implied about the observations in your data set? For example, if your primary data set is twitter data, it may not be representative of the whole sample (say, predicting who would win an election)
+- This dataset might not be representative of all students in NYC high schools. 
+    
+* What are the risks to the project?
+    * What's the cost of your model being wrong? (What's the benefit of your model being right?) The cost of my model being wrong would be that I am sharing incorrect data that might impact the audience I will be presenting to (their perspectives and perceptions). 
+    
+    * Is any of the data incorrect? Could it be incorrect? I received the dataset from Data.gov and NYC Open Data but I'm not sure how the data was collected, so there is a possibility that it could be incorrect.   
+
+### Outcomes
+* What do you expect the output to look like? I expect that lower ranked school districts, African Americans and Hispanic males have the biggest impact on a student's chances of graduating high school. 
+
+* What does your target audience expect the output to look like? I expect graduation rates for African American and Hispanic males to be signicantly lower (>10%) than other demographics. 
+
+* What gain do you expect from your most important feature on its own? I expect being African American will decrease predicted high school graduation rates by at least 3% from all other demographic groups. 
+
+* How complicated does your model have to be? I don't think my model has to be that complicated. I was thinking of running a logistic regression to for the predicted high school graduation rates. 
+
+* How successful does your project have to be in order to be considered a "success"? I think if the African American and Hispanic male graduation rates are at last 5% lower than all the other demographic groups than my model would be considered a success. 
+
+* What will you do if the project is a bust (this happens! but it shouldn't here)? I will look into more of this data to see if I have been misinformed about my hypothesis. 
+
